@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FfI+zdXW1IC8ktlScJ6CmbDs/aXw829KEjBG/L2DrFdBnnYNrQ8zFAXTpzTUbxF/eJZB+74tpqC77nND/NwFeg==",
+  "dgSpecHash": "2y6SABhZNMCvEMNSIIDB53j1+mhTvTt+1GAl0hdM4suHYafHk0qnpMR3GQSJTYneOlvx8a6D8Og0SNPj0lmHcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCOre\\dotnetCore.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\dotnetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\discord.net\\3.2.0\\discord.net.3.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\discord.net.commands\\3.2.0\\discord.net.commands.3.2.0.nupkg.sha512",
