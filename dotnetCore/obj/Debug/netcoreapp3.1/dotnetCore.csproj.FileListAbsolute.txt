@@ -25,3 +25,4 @@ C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Debug\netcoreapp3.1\dotnet
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Debug\netcoreapp3.1\dotnetCore.dll
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Debug\netcoreapp3.1\dotnetCore.pdb
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Debug\netcoreapp3.1\dotnetCore.genruntimeconfig.cache
+C:\Users\admin\Documents\dotnetdiscord\dotnetCore\bin\Debug\netcoreapp3.1\Docker.DotNet.dll

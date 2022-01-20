@@ -8,13 +8,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
-
-  <Target Name="PrePublishTarget" AfterTargets="Publish">
-    <Exec Command="dotnet ef database update" />
-  </Target>
   
   <ItemGroup>
     <PackageReference Include="Discord.Net" Version="3.2.0" />
+    <PackageReference Include="Docker.DotNet" Version="3.125.5" />
   </ItemGroup>
 
 </Project>
