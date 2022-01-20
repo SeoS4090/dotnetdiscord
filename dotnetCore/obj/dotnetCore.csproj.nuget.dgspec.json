@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\dotnetCore.csproj": {}
+    "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCOre\\dotnetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\dotnetCore.csproj": {
+    "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCOre\\dotnetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\dotnetCore.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCOre\\dotnetCore.csproj",
         "projectName": "dotnetCore",
-        "projectPath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\dotnetCore.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCOre\\dotnetCore.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCOre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
