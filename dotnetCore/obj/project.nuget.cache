@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2y6SABhZNMCvEMNSIIDB53j1+mhTvTt+1GAl0hdM4suHYafHk0qnpMR3GQSJTYneOlvx8a6D8Og0SNPj0lmHcA==",
+  "dgSpecHash": "eVKkCUezDkVCpKlalR5TwLVMSjGkEnoeBsyKsDjKLAjZd692KxscxYv7BzTvMg8pXoxbRl+RReDry5WAqwbYwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\dotnetCore.csproj",
   "expectedPackageFiles": [
@@ -11,12 +11,15 @@
     "C:\\Users\\admin\\.nuget\\packages\\discord.net.rest\\3.2.0\\discord.net.rest.3.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\discord.net.webhook\\3.2.0\\discord.net.webhook.3.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\discord.net.websocket\\3.2.0\\discord.net.websocket.3.2.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\docker.dotnet\\3.125.5\\docker.dotnet.3.125.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.interactive.async\\5.0.0\\system.interactive.async.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.linq.async\\5.0.0\\system.linq.async.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
   ],
   "logs": []

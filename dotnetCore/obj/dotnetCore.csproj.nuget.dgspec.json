@@ -43,6 +43,10 @@
             "Discord.Net": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.5, )"
             }
           },
           "imports": [
