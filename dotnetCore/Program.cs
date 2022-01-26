@@ -38,11 +38,8 @@ namespace DiscordBot
             //로그 수신 시 로그 출력 함수에서 출력되도록 설정
             client.Log += OnClientLogReceived;
             commands.Log += OnClientLogReceived;
-            
-            byte[] byte64 = Convert.FromBase64String("T1RNek1qVXdNRGd5TURJMU9USTJOekUyLlllZXkzZy5YTXBJa3Y2anB4SThEUGhZOWY2cnRzZG9NTk0=");
-            string s1 = Encoding.UTF8.GetString(byte64);
 
-            await client.LoginAsync(TokenType.Bot, s1); //봇의 토큰을 사용해 서버에 로그인
+            await client.LoginAsync(TokenType.Bot, Environment.GetEnvironmentVariable("BOT_TOKEN")); //봇의 토큰을 사용해 서버에 로그인
             await client.StartAsync();                         //봇이 이벤트를 수신하기 시작
 
             client.MessageReceived += OnClientMessage;         //봇이 메시지를 수신할 때 처리하도록 설정
@@ -66,18 +63,13 @@ namespace DiscordBot
 
             var context = new SocketCommandContext(client, message);                    //수신된 메시지에 대한 컨텍스트 생성   
 
-            switch(message.Content)
+            switch (message.Content)
             {
-                case "!토큰":
-                    await context.Channel.SendMessageAsync("토큰 - " + Environment.GetEnvironmentVariable("BOT_TOKEN")); 
-                    break;
                 default:
                     await context.Channel.SendMessageAsync("명령어 수신됨 - " + message.Content); //수신된 명령어를 다시 보낸다.
                     break;
             }
 
-
-            
         }
 
         /// <summary>
