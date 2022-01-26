@@ -2,6 +2,7 @@
 using Discord.Commands;
 using Discord.WebSocket;
 using System;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -44,6 +45,8 @@ namespace DiscordBot
 
             client.MessageReceived += OnClientMessage;         //봇이 메시지를 수신할 때 처리하도록 설정
 
+            await commands.AddModulesAsync(assembly: Assembly.GetEntryAssembly(), services: null);
+
             await Task.Delay(-1);   //봇이 종료되지 않도록 블로킹
         }
 
@@ -63,12 +66,16 @@ namespace DiscordBot
 
             var context = new SocketCommandContext(client, message);                    //수신된 메시지에 대한 컨텍스트 생성   
 
-            switch (message.Content)
-            {
-                default:
-                    await context.Channel.SendMessageAsync("명령어 수신됨 - " + message.Content); //수신된 명령어를 다시 보낸다.
-                    break;
-            }
+
+            //모듈이 명령어를 처리하게 설정
+            var result = await commands.ExecuteAsync( context: context, argPos: pos, services: null);
+            
+            //switch (message.Content)
+            //{
+            //    default:
+            //        await context.Channel.SendMessageAsync("명령어 수신됨 - " + message.Content); //수신된 명령어를 다시 보낸다.
+            //        break;
+            //}
 
         }
 
