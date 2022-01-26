@@ -66,7 +66,6 @@ namespace DiscordBot
 
             var context = new SocketCommandContext(client, message);                    //수신된 메시지에 대한 컨텍스트 생성   
 
-
             //모듈이 명령어를 처리하게 설정
             var result = await commands.ExecuteAsync( context: context, argPos: pos, services: null);
             

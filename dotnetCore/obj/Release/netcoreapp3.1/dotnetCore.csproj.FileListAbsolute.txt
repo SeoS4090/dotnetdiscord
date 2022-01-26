@@ -25,3 +25,4 @@ C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotn
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.dll
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.pdb
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.genruntimeconfig.cache
+C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.csprojAssemblyReference.cache
