@@ -50,6 +50,7 @@ namespace dotnetCore.Service
                 return;
 
             var context = new SocketCommandContext(_discord, message);
+
             // Perform the execution of the command. In this method,
             // the command service will perform precondition and parsing check
             // then execute the command if one is matched.
@@ -62,7 +63,10 @@ namespace dotnetCore.Service
         {
             // command is unspecified when there was a search failure (command not found); we don't care about these errors
             if (!command.IsSpecified)
+            {
+                await context.Channel.SendMessageAsync($"해당 명령어는 없습니다.");
                 return;
+            }
 
             // the command was successful, we don't care about this result, unless we want to log that a command succeeded.
             if (result.IsSuccess)
