@@ -18,7 +18,6 @@ C:\Users\admin\Documents\dotnetdiscord\dotnetCore\bin\Release\netcoreapp3.1\Syst
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\bin\Release\netcoreapp3.1\System.Linq.Async.dll
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\bin\Release\netcoreapp3.1\System.Reactive.dll
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\bin\Release\netcoreapp3.1\System.Reactive.xml
-C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.csprojAssemblyReference.cache
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.AssemblyInfoInputs.cache
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.AssemblyInfo.cs
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.csproj.CoreCompileInputs.cache

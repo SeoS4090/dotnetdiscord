@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eVKkCUezDkVCpKlalR5TwLVMSjGkEnoeBsyKsDjKLAjZd692KxscxYv7BzTvMg8pXoxbRl+RReDry5WAqwbYwA==",
+  "dgSpecHash": "Y3+MciOE0W0Pb+FCDYJX+Whe0twbWc9ko+94ah4GT0HJXa7HJ4OG6gMnJgeFVKw/ceJDE3+Pz3Lyq8y1NGbd1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Documents\\dotnetdiscord\\dotnetCore\\dotnetCore.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\discord.net.websocket\\3.2.0\\discord.net.websocket.3.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\docker.dotnet\\3.125.5\\docker.dotnet.3.125.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
