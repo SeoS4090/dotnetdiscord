@@ -26,3 +26,5 @@ C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotn
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.pdb
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.genruntimeconfig.cache
 C:\Users\admin\Documents\dotnetdiscord\dotnetCore\obj\Release\netcoreapp3.1\dotnetCore.csprojAssemblyReference.cache
+C:\Users\admin\Documents\dotnetdiscord\dotnetCore\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\admin\Documents\dotnetdiscord\dotnetCore\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
