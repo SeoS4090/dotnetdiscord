@@ -13,12 +13,12 @@ namespace dotnetCore.Modules
         /// <summary>
         /// !hi 명령어를 입력했을 때 실행되는 함수
         /// </summary>
-        [Command("hi")]
-        [Alias("안녕", "ㅎㅇ")] //!안녕 또는 !ㅎㅇ 를 입력해도 실행 가능
-        public async Task HelloCommand()
+        [Command("재생")]
+        [Alias("p", "P","play","Play","wotod","WOTOD")]
+        public async Task MusicPlayCommand()
         {
-            //ModuleBase를 상속하면 Context 변수를 통해 답장을 보낼 수 있다. 
-            await Context.Channel.SendMessageAsync("Hello World!");
+            //ModuleBase를 상속하면 Context 변수를 통해 답장을 보낼 수 있다.
+            await Context.Channel.SendMessageAsync("Play Music");
         }
     }
 }
