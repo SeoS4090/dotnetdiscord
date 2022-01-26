@@ -34,7 +34,7 @@ namespace DiscordBot
             using (var services = ConfigureServices())
             {
                 var client = services.GetRequiredService<DiscordSocketClient>();
-
+                
                 client.Log += LogAsync;
                 services.GetRequiredService<CommandService>().Log += LogAsync;
 
@@ -46,8 +46,19 @@ namespace DiscordBot
                 // Here we initialize the logic required to register our commands.
                 await services.GetRequiredService<CommandHandlingService>().InitializeAsync();
 
+
+                client.Disconnected += DisconnectedAsync;
+
+
                 await Task.Delay(Timeout.Infinite);
             }
+        }
+
+        private Task DisconnectedAsync(Exception exception)
+        {
+            Console.WriteLine(exception.ToString());
+
+            return Task.CompletedTask;
         }
 
         private Task LogAsync(LogMessage log)
