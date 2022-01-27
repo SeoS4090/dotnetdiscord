@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using dotnetCore.Service;
 using System.Threading;
 using System.Net.Http;
+using System.Diagnostics;
 
 namespace DiscordBot
 {
@@ -49,14 +50,13 @@ namespace DiscordBot
 
                 client.Disconnected += DisconnectedAsync;
 
-
                 await Task.Delay(Timeout.Infinite);
             }
         }
 
         private Task DisconnectedAsync(Exception exception)
         {
-            Console.WriteLine(exception.ToString());
+            Console.WriteLine("GOOD BYE " + exception.ToString());
 
             return Task.CompletedTask;
         }
